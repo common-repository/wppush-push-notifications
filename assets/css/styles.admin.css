@@ -1,0 +1,42 @@
+#stats-nuggets ul {
+    padding: 10px 10px 0 10px;
+    overflow: hidden;
+    position: relative;
+    _height: 1%;
+}
+#stats-nuggets ul li {
+    float: left;
+}
+#stats-nuggets li a {
+    text-decoration: none;
+    color: #404040;
+}
+#stats-nuggets ul li span {
+    font-weight: lighter;
+    font-size: 16pt;
+    line-height: 1.5em;
+    display: block;
+}
+#stats-nuggets li {
+    font-size: 12px;
+    width: 31%;
+    float: left;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 2;
+}
+#stats-nuggets li#bestever {
+    width: 25%;
+    border-left: 1px dotted #ababab;
+    border-right: 1px dotted #ababab;
+}
+#stats-nuggets li strong {
+    width: 33%;
+    float: left;
+    font-weight: normal;
+}
